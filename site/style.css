@@ -91,5 +91,6 @@ body {
     background-image: url(imagem/mapa-jornada.png);
     background-size: cover;
     background-position: center;
-    
+    height: 100%;
+    width: 100%;
 }
