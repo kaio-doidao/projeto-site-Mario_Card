@@ -1,10 +1,17 @@
+body {
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .menu-site {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #258090;
-    padding: 10px 0;
+    background-color: #000;
+    padding: 25px 0;
     z-index: 1000;
 }
 
@@ -26,4 +33,56 @@
     font-weight: bold;
     transition: color 0.3s;
     padding: 35px;   
+}
+
+.menu-site a:hover {
+    color: #808080;
+}
+
+#imagem {
+    position: absolute;
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+    right: 96%;
+}
+
+#game {
+    color: white;
+    position: absolute;
+    left: 4%;
+}
+
+#game:hover {
+    color: #808080;
+}
+
+#entrar {
+    position: absolute;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 7%;
+    background-color: #696969;
+    right: 11%;
+    color: white;
+}
+
+#entrar:hover {
+    background-color: #A9A9A9;
+}
+
+#Cadastrar-se {
+    position: absolute;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 9%;
+    background-color: #00f;
+    color: white;
+    right: 1%;
+}
+
+#Cadastrar-se:hover {
+    background-color: #4b4be0;
 }
