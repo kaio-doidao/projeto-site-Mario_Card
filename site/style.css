@@ -86,3 +86,10 @@ body {
 #Cadastrar-se:hover {
     background-color: #4b4be0;
 }
+
+.mapa{
+    background-image: url(imagem/mapa-jornada.png);
+    background-size: cover;
+    background-position: center;
+    
+}
