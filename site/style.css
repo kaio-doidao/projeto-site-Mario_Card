@@ -66,6 +66,7 @@ body {
     background-color: #696969;
     right: 11%;
     color: white;
+    cursor: pointer;
 }
 
 #entrar:hover {
@@ -81,6 +82,7 @@ body {
     background-color: #00f;
     color: white;
     right: 1%;
+    cursor: pointer;
 }
 
 #Cadastrar-se:hover {
@@ -88,9 +90,36 @@ body {
 }
 
 .mapa{
-    background-image: url(imagem/mapa-jornada.png);
-    background-size: cover;
-    background-position: center;
-    height: 100%;
+    height: 95vh;
     width: 100%;
+}
+
+
+.bnt{
+    cursor: pointer;
+    opacity: 0;
+    width: 55px;
+    height: 55px;
+    
+}
+
+#bnt1{
+    position: relative;
+    left: 22%;
+    bottom: 62vh;
+}
+#bnt2{
+    position: relative;
+    left: 32%;
+    bottom: 30vh;
+}
+#bnt3{
+    position: relative;
+    left: 50%;
+    bottom: 20vh;
+}
+#bnt4{
+    position: relative;
+    left: 60%;
+    bottom: 40vh;
 }
