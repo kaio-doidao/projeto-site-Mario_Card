@@ -1,6 +1,13 @@
+
+* {
+    justify-content: center;
+}
+
+
 body {
     background-color: #121010;
     font-family: Arial, Helvetica, sans-serif;color:#ffffff;
+    
 }
 .menu-site {
     display: flex;
