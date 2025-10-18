@@ -1,6 +1,8 @@
 body {
     background-color: #0c0c0c;
     font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content: center;
 }
 .menu-site {
     display: flex;
@@ -109,6 +111,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 30px;
 }
 
 .content-main {
@@ -129,7 +132,6 @@ body {
     border-top-right-radius: 18px;
     padding: 0 12px;
 }
-
 .content-title h2 {
     font-size: 23px;
     color: #ffffff;
@@ -144,14 +146,21 @@ body {
 .content-mission {
     background-color: #205275;
     height: 100px;
-    width: 100%;
     color: #fccd23;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
-
+.content-mission-1{
+    background-color: #EB584C;
+    height: 100px;
+    color: #fccd23;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 .content-profile {
     height: 56%;
     width: 100%;
@@ -240,166 +249,3 @@ body {
 .img-logos img {
     height: 50px;
 }
-
-
-
-
-
-
-
-
-{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Silkscreen", sans-serif;
-}
-
-body carlos {
-    background-color: #494747;
-}
-
-.content carlos {
-    height: 100dvh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content-main carlos {
-    height: clamp(400px, 450px, 1000px);
-    width: clamp(290px, 290px, 300px);
-    background-color: #31363a;
-    border-radius: 20px;
-}
-
-.content-title carlos {
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #212d38;
-    border-top-left-radius: 18px;
-    border-top-right-radius: 18px;
-    padding: 0 12px;
-}
-
-.content-title carlos h2 {
-    font-size: 23px;
-    color: #ffffff;
-}
-
-.content-title carlos img {
-    height: 40px;
-    width: 40px;
-    text-align: end;
-}
-
-.content-mission carlos {
-    background-color: #0d8de9;
-    height: 100px;
-    width: 100%;
-    color: #fccd23;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-.content-profile carlos {
-    height: 56%;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #ffffff;
-    position: relative;
-}
-
-.profile-section carlos {
-    display: grid;
-    grid-template-columns: 100px 170px;
-}
-
-.img-profile-section carlos {
-    width: 100px;
-}
-
-.description-profile-section carlos {
-    width: 100%;
-    color: #1f2e6b;
-}
-
-.description-profile-section label:nth-child(n+1) carlos {
-    margin-right: 92px;
-}
-
-.description-profile-section label:nth-child(n+2) carlos {
-    margin-right: 76px;
-}
-
-.img-profile-section img carlos {
-    height: 100px;
-}
-
-.description-profile-section input carlos {
-    width: 150px;
-    outline: none;
-    border: none;
-    background-color: #adadad;
-    border-radius: 20px;
-    padding-left: 6px;
-    color: #1f2e6b;
-}
-
-.expirience-profile carlos {
-    width: 100%;
-    color: #1f2e6b;
-}
-
-.experience-descriptio-section carlos {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 10px;
-}
-
-.expirience-bar carlos div {
-    height: 10px;
-    width: 100px;
-    background-color: #ffd129;
-    margin-top: 10px;
-    margin-left: 10px;
-    border-radius: 10px 0 0 10px;
-    position: relative;
-    z-index: 1;
-}
-
-.expirience-bar carlos div span {
-    position: absolute;
-    background-color: #a5a5a5;
-    height: 10px;
-    width: 174px;
-    top: 0%;
-    left: 97%;
-    border-radius: 0 10px 10px 0;
-    z-index: -1;
-}
-
-.unlocked-achievements carlos {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.img-logos carlos img {
-    height: 50px;
-}
-
-
-
-
-
-
-
-
