@@ -59,38 +59,6 @@ body {
     color: #808080;
 }
 
-#entrar {
-    position: absolute;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    width: 7%;
-    background-color: #696969;
-    right: 11%;
-    color: white;
-    cursor: pointer;
-}
-
-#entrar:hover {
-    background-color: #A9A9A9;
-}
-
-#Cadastrar-se {
-    position: absolute;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    width: 9%;
-    background-color: #00f;
-    color: white;
-    right: 1%;
-    cursor: pointer;
-}
-
-#Cadastrar-se:hover {
-    background-color: #4b4be0;
-}
-
 
 
 @import url('https://fonts.googleapis.com/css2?family=Kanchenjunga:wght@400;500;600;700&family=Silkscreen:wght@400;700&display=swap');
@@ -154,6 +122,15 @@ body {
 }
 .content-mission-1{
     background-color: #EB584C;
+    height: 100px;
+    color: #fccd23;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.content-mission-2 {
+    background-color: #1ec11b;
     height: 100px;
     color: #fccd23;
     display: flex;

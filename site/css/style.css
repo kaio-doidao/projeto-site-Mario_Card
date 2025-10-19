@@ -20,6 +20,8 @@ body {
     background-color: #000;
     padding: 25px 0;
     z-index: 1000;
+    min-width: 25%;
+    max-width: 100%;
 }
 
 .menu-site ul {
@@ -40,6 +42,8 @@ body {
     font-weight: bold;
     transition: color 0.3s;
     padding: 35px;   
+    left: 580PX;
+    position: relative;
 }
 
 .menu-site a:hover {
@@ -62,38 +66,6 @@ body {
 
 #game:hover {
     color: #808080;
-}
-
-#entrar {
-    position: absolute;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    width: 7%;
-    background-color: #696969;
-    right: 11%;
-    color: white;
-    cursor: pointer;
-}
-
-#entrar:hover {
-    background-color: #A9A9A9;
-}
-
-#Cadastrar-se {
-    position: absolute;
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    width: 9%;
-    background-color: #00f;
-    color: white;
-    right: 1%;
-    cursor: pointer;
-}
-
-#Cadastrar-se:hover {
-    background-color: #4b4be0;
 }
 
 .mapa{
@@ -132,6 +104,22 @@ body {
 }
 .texto{
     color: rgb(255, 255, 255);
+}
+
+.html {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 20px;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 50px;
 }
 
 
