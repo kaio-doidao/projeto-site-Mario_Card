@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=Jersey+20&family=Press+Start+2P&display=swap');
 * {
     justify-content: center;
 }
@@ -6,7 +6,7 @@
 
 body {
     background-color: #121010;
-    font-family: Arial, Helvetica, sans-serif;color:#ffffff;
+    font-family: 'Press Start 2P';color:#ffffff;
     
 }
 .menu-site {
@@ -101,6 +101,7 @@ body {
 }
 .texto{
     color: rgb(255, 255, 255);
+    
 }
 
 .html {
@@ -112,6 +113,7 @@ body {
     min-width: 320px;
     max-width: 800px;
     padding: 20px;
+    font-size: 10px;
 }
 
 #titulo {
