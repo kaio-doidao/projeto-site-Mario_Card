@@ -157,16 +157,16 @@ body {
     width: 100px;
 }
 
-.description-profile-section {
+.descrição {
     width: 100%;
     color: #1f2e6b;
 }
 
-.description-profile-section label:nth-child(n+1) {
+.descrição label:nth-child(n+1) {
     margin-right: 92px;
 }
 
-.description-profile-section label:nth-child(n+2) {
+.descrição label:nth-child(n+2) {
     margin-right: 76px;
 }
 
@@ -174,7 +174,7 @@ body {
     height: 100px;
 }
 
-.description-profile-section input {
+.descrição input {
     width: 150px;
     outline: none;
     border: none;
@@ -184,18 +184,18 @@ body {
     color: #1f2e6b;
 }
 
-.expirience-profile {
+.experiencia-perfil {
     width: 100%;
     color: #1f2e6b;
 }
 
-.experience-descriptio-section {
+.experiencia-descritiva {
     display: flex;
     justify-content: space-between;
     margin: 0 10px;
 }
 
-.expirience-bar div {
+.experiencia-barra div {
     height: 10px;
     width: 100px;
     background-color: #ffd129;
@@ -206,7 +206,7 @@ body {
     z-index: 1;
 }
 
-.expirience-bar div span {
+.experiencia-barra div span {
     position: absolute;
     background-color: #a5a5a5;
     height: 10px;
@@ -217,7 +217,7 @@ body {
     z-index: -1;
 }
 
-.unlocked-achievements {
+.Conquistas {
     margin-top: 10px;
     display: flex;
     flex-direction: column;

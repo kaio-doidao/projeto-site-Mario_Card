@@ -73,29 +73,30 @@ body {
 .bnt{
     cursor: pointer;
     opacity: 0;
-    width: 55px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
     
 }
 
 #bnt1{
     position: relative;
-    left: 22%;
+    left: 23%;
     bottom: 62vh;
 }
 #bnt2{
     position: relative;
-    left: 32%;
+    left: 33%;
     bottom: 30vh;
 }
 #bnt3{
     position: relative;
-    left: 50%;
+    left: 51%;
     bottom: 20vh;
 }
 #bnt4{
     position: relative;
-    left: 60%;
+    left: 61%;
     bottom: 40vh;
 }
 .texto{
