@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=Jersey+20&family=Press+Start+2P&display=swap');
+
+
+
 body {
     background-color: #0c0c0c;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Press Start 2P';
     display:flex;
     justify-content: center;
 }
@@ -62,12 +66,12 @@ body {
 
 
 @import url('https://fonts.googleapis.com/css2?family=Kanchenjunga:wght@400;500;600;700&family=Silkscreen:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=Jersey+20&family=Press+Start+2P&family=Tiny5&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Silkscreen", sans-serif;
+    
 }
 
 body {
@@ -80,6 +84,8 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 30px;
+    font-family: "Silkscreen", sans-serif;
+
 }
 
 .content-main {
