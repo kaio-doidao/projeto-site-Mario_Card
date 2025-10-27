@@ -73,31 +73,31 @@ body {
 .bnt{
     cursor: pointer;
     opacity: 0;
-    width: 90px;
-    height: 90px;
+    width: 10vw;
+    height: 10vw;
     border-radius: 100%;
     
 }
 
 #bnt1{
     position: relative;
-    left: 22%;
-    bottom: 62vh;
+    left: 20vw;
+    bottom: 65vh;
 }
 #bnt2{
     position: relative;
-    left: 31%;
-    bottom: 30vh;
+    left: 22vw;
+    bottom: 35vh;
 }
 #bnt3{
     position: relative;
-    left: 47%;
-    bottom: 20vh;
+    left: 32vw;
+    bottom: 22vh;
 }
 #bnt4{
     position: relative;
-    left: 55%;
-    bottom: 41vh;
+    left: 35vw;
+    bottom: 43vh;
 }
 .texto{
     color: rgb(255, 255, 255);
