@@ -126,7 +126,7 @@ body {
 @media screen and (max-width:1000px) {
     /*menu*/
     #imagem{
-        
+        left: 95px;
     }
     #game{
         left: 150px;
@@ -136,5 +136,8 @@ body {
     }
     .links{
         display: none;
+    }
+    .texto-index{
+        padding: 5%;
     }
 }

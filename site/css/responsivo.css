@@ -1,2 +1,45 @@
-@media (max-width:768px){
+@media screen and (max-width:1000px) {
+    /*menu*/
+    #imagem{
+        left: 95px;
+    }
+    #game{
+        left: 150px;
+    }
+    .menu-site{
+        display: flex;
+    }
+    .links{
+        display: none;
+    }
+    .texto-index{
+        padding: 5%;
+    }
+    /*mapa*/
+    
+    .bnt{
+        width: 14vw;
+        height: 14vw;
+    }
+    
+    #bnt1{
+        position: relative;
+        left: 18vw;
+        bottom: 62vh;
+    }
+    #bnt2{
+        position: relative;
+        left: 15vw;
+        bottom: 30vh;
+    }
+    #bnt3{
+        position: relative;
+        left: 20vw;
+        bottom: 20vh;
+    }
+    #bnt4{
+        position: relative;
+        left: 14vw;
+        bottom: 40vh;
+    }
 }
