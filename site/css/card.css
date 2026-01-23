@@ -8,6 +8,7 @@ body {
     display:flex;
     justify-content: center;
 }
+/*menu*/
 .menu-site {
     display: flex;
     align-items: center;
@@ -78,17 +79,33 @@ body {
     background-color: #494747;
 }
 
-.cards
-.content {
+
+
+
+.content-1 {
     height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 30px;
     font-family: "Silkscreen", sans-serif;
-
 }
-
+.content-2 {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    font-family: "Silkscreen", sans-serif;
+}
+.content-3 {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    font-family: "Silkscreen", sans-serif;
+}
 .content-main {
     height: clamp(400px, 450px, 1000px);
     width: clamp(290px, 290px, 300px);
@@ -217,7 +234,7 @@ body {
     position: absolute;
     background-color: #a5a5a5;
     height: 10px;
-    width: 174px;
+    width: 130px;
     top: 0%;
     left: 97%;
     border-radius: 0 10px 10px 0;
@@ -234,24 +251,47 @@ body {
     height: 50px;
 }
 
-
+.flex{
+    display: flex;
+}
 
 /*resposividade*/
 
 @media screen and (max-width:1000px) {
-    
+    /*menu*/
+    #imagem{
+        left: 95px;
+    }
+    #game{
+        left: 150px;
+    }
     .menu-site{
+        display: flex;
+    }
+    .links{
         display: none;
     }
-    
-    .content{
+    /*cards*/
+
+    .flex{
         flex-direction: column;
     }
-
-
-
-
-
-
-
+    .content-main {
+        width: auto;
+        position: relative;
+       
+        justify-items: center;
+    }
+    .content-mission{
+        width: 100%;
+    }
+    .content-mission-1{
+        width: 100%;
+    }
+    .content-mission-2{
+        width: 100%;
+    }
+    .experiencia-barra{
+        width: 200px;
+    }
 }
