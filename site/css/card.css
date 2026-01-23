@@ -78,6 +78,7 @@ body {
     background-color: #494747;
 }
 
+.cards
 .content {
     height: 100dvh;
     display: flex;
@@ -231,4 +232,26 @@ body {
 
 .img-logos img {
     height: 50px;
+}
+
+
+
+/*resposividade*/
+
+@media screen and (max-width:1000px) {
+    
+    .menu-site{
+        display: none;
+    }
+    
+    .content{
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
 }
