@@ -9,17 +9,29 @@
 </head>
 <body>
     <div>
-        <nav class="menu-site">
-            <img id="imagem" src="../imagem/imagem-mario-removebg-preview (1).png" alt="">
-            <h1 id="game">Game</h1>
-            <div class="links">
-                <ul >
-                            <l><a href="../../index.html">Inicio</a></l> 
-                            <l><a href="cards.html">Cards</a></l>
-                            <l><a href="mapa.html">Jornada</a></l>
-                </ul>
-            </div>
-        </nav>
+    <nav class="menu-site">
+        <img id="imagem" src="../imagem/imagem-mario-removebg-preview (1).png" alt="">
+        <h1 id="game">Game</h1>
+        <div class="links">
+            <ul >
+                        <l><a href="../../index.html">Inicio</a></l> 
+                        <l><a href="cards.html">Cards</a></l>
+                        <l><a href="mapa.html">Jornada</a></l>
+            </ul>
+        </div>
+        <button onclick="animar()" id="btn-menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+        <div class="links-mobile" id="links-mobile">
+            <ul >
+                        <l><a href="../../index.html">Inicio</a></l> 
+                        <l><a href="cards.html">Cards</a></l>
+                        <l><a href="mapa.html">Jornada</a></l>
+            </ul>
+        </div>
+</nav>
     </div>
     <div class="jornada">
         <img src="../imagem/mapa-jornada.png" class="mapa" alt="mapa" srcset="">
@@ -32,5 +44,12 @@
         
         <a href="fases/fase4.html"><button class="bnt" id="bnt4">4</button></a>
     </div>
+        <script>
+        function animar(){
+            const btn = document.getElementById('btn-menu')
+            btn.classList.toggle('ativar')
+        }
+    </script>
+    <script src="mapa.js"></script>
 </body>
 </html>

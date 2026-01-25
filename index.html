@@ -17,7 +17,19 @@
                         <l><a href="mapa.html">Jornada</a></l>
             </ul>
         </div>
-    </nav>
+        <button onclick="animar()" id="btn-menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+        <div class="links-mobile" id="links-mobile">
+            <ul >
+                        <l><a href="../../index.html">Inicio</a></l> 
+                        <l><a href="cards.html">Cards</a></l>
+                        <l><a href="mapa.html">Jornada</a></l>
+            </ul>
+        </div>
+</nav>
     <br>
     <br>
     <br>
@@ -39,5 +51,12 @@
             
             🚀 Prepare-se para criar, experimentar e desenvolver projetos incríveis. Vamos codar?</p>
     </div>
+    <script>
+        function animar(){
+            const btn = document.getElementById('btn-menu')
+            btn.classList.toggle('ativar')
+        }
+    </script>
+    <script src="animar.js"></script>
 </body>
 </html>
