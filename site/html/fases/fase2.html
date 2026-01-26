@@ -7,19 +7,29 @@
     <link rel="stylesheet" href=".././../css/style.css">
 </head>
 <body>
-    <div>
-        <nav class="menu-site">
-            <img id="imagem" src="../imagem/imagem-mario-removebg-preview (1).png" alt="">
-            <h1 id="game">Game</h1>
-            <div class="links">
-                <ul >
-                            <l><a href="../../index.html">Inicio</a></l> 
-                            <l><a href="cards.html">Cards</a></l>
-                            <l><a href="mapa.html">Jornada</a></l>
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <nav class="menu-site">
+        <img id="imagem" src="../imagem/imagem-mario-removebg-preview (1).png" alt="">
+        <h1 id="game">Game</h1>
+        <div class="links">
+            <ul >
+                        <l><a href="../../../index.html">Inicio</a></l> 
+                        <l><a href="../cards.html">Cards</a></l>
+                        <l><a href="../mapa.html">Jornada</a></l>
+            </ul>
+        </div>
+        <button onclick="animar()" id="btn-menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+        <div class="links-mobile" id="links-mobile">
+            <ul >
+                        <l><a href="../../../index.html">Inicio</a></l> 
+                        <l><a href="../cards.html">Cards</a></l>
+                        <l><a href="../mapa.html">Jornada</a></l>
+            </ul>
+        </div>
+</nav>
     <br>
     <br>
     <br>
@@ -56,6 +66,13 @@ Adaptem o site para diferentes dispositivos (como celulares, tablets e desktops)
 
 
     </div>
+    <script>
+        function animar(){
+            const btn = document.getElementById('btn-menu')
+            btn.classList.toggle('ativar')
+        }
+    </script>
+    <script src="fase.js"></script>
     
 </body>
 </html>

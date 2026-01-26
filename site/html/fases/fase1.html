@@ -13,12 +13,24 @@
             <h1 id="game">Game</h1>
             <div class="links">
                 <ul >
-                            <l><a href="../../index.html">Inicio</a></l> 
-                            <l><a href="cards.html">Cards</a></l>
-                            <l><a href="mapa.html">Jornada</a></l>
+                            <l><a href="../../../index.html">Inicio</a></l> 
+                            <l><a href="../card.js">Cards</a></l>
+                            <l><a href="../mapa.html">Jornada</a></l>
                 </ul>
             </div>
-        </nav>
+            <button onclick="animar()" id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+            <div class="links-mobile" id="links-mobile">
+                <ul >
+                            <l><a href="../../../index.html">Inicio</a></l> 
+                            <l><a href="../cards.html">Cards</a></l>
+                            <l><a href="../mapa.html">Jornada</a></l>
+                </ul>
+            </div>
+    </nav>
     </div>
     <br>
     <br>
@@ -70,6 +82,14 @@ body: Onde você coloca todo o conteúdo visível da página.<br>
 
   <img src=https://files.passeidireto.com/f2b8d11c-caa7-4ced-b48a-b08e09933329/f2b8d11c-caa7-4ced-b48a-b08e09933329.png alt="exemplo de html" width="300" height="200">
    </div>
+   <script>
+    function animar(){
+        const btn = document.getElementById('btn-menu')
+        btn.classList.toggle('ativar')
+    }
+</script>
+<script src="fase.js"></script>
+
 </body>
 </html>
 
